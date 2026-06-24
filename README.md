@@ -42,3 +42,14 @@ landing-page-html-css-js/
 ├── style.css         # Estilos e layout
 ├── script.js         # Interações e lógica de front-end
 └── assets/           # Imagens, ícones e mídias
+
+
+```
+
+## 👨‍💻 Autor  
+**Fabiano Faria de Resende**  
+Estagiário de Engenharia de IA Front‑end — FlyRank (Jul/2026)  
+GitHub: https://github.com/FabianoResende  
+LinkedIn: https://www.linkedin.com/in/fabianofr/
+
+
