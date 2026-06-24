@@ -1,33 +1,44 @@
-🌐 Meu Projeto Web — HTML, CSS e JavaScript
-Este projeto foi criado para demonstrar habilidades em desenvolvimento front-end utilizando:
+# 🌐 Landing Page — HTML, CSS & JavaScript
 
-HTML5
+Uma landing page moderna, responsiva e estruturada para apresentar conteúdo de forma clara, visual e profissional.  
+Projeto desenvolvido como parte da minha evolução em Front‑end e preparação para o estágio de **Engenharia de IA Front‑end — FlyRank (Jul/2026)**.
 
-CSS3
+---
 
-JavaScript
+## 🚀 Demonstração
 
-Estrutura profissional de pastas
+🔗 **Acesse o projeto online:**  
+https://fabianoresende.github.io/landing-page-html-css-js/
 
-Boas práticas de organização
+---
 
-🚀 Objetivo
-Servir como base para estudos, portfólio e evolução futura para projetos mais completos.
+## 🧩 Objetivo do Projeto
 
-📂 Estrutura
-Código
-meu-projeto-web/
- ├── index.html
- ├── style.css
- ├── script.js
- ├── assets/
- │    ├── img/
- │    └── icons/
- └── README.md
-▶️ Como visualizar
-Basta abrir o arquivo index.html no navegador.
+Criar uma landing page simples, elegante e funcional utilizando apenas **HTML, CSS e JavaScript**, com foco em:
 
-👨‍💻 Autor
-Fabiano Faria de Resende  
-GitHub: https://github.com/FabianoResende  
-LinkedIn: https://www.linkedin.com/in/fabianofr
+- Estrutura semântica  
+- Responsividade  
+- Boas práticas de CSS  
+- Organização de arquivos  
+- Interatividade leve com JavaScript  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** — Estrutura e semântica  
+- **CSS3** — Estilização, layout e responsividade  
+- **JavaScript** — Interações e comportamento dinâmico  
+- **Git & GitHub** — Versionamento e deploy  
+- **GitHub Pages** — Hospedagem gratuita
+
+---
+
+## 📁 Estrutura do Projeto
+
+```bash
+landing-page-html-css-js/
+├── index.html        # Estrutura principal da página
+├── style.css         # Estilos e layout
+├── script.js         # Interações e lógica de front-end
+└── assets/           # Imagens, ícones e mídias
