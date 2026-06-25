@@ -109,7 +109,7 @@
     margin-bottom: 20px;
 }
 
-/* TECNOLOGIAS */
+/* TECNOLOGIAS — VERSÃO FINAL */
 .tecnologias {
     background-color: #081229;
     padding: 60px 20px;
@@ -118,14 +118,32 @@
 
 .tecnologias h2 {
     color: #00bfff;
+    margin-bottom: 20px;
+}
+
+.tec-intro {
+    color: #d0d0d0;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+}
+
+.tec-grupo {
     margin-bottom: 40px;
+}
+
+.tec-grupo h3 {
+    color: #00aaff;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
 }
 
 .icons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 40px;
 }
 
 .icon {
@@ -135,15 +153,27 @@
 }
 
 .icon img {
-    width: 100px;
-    filter: drop-shadow(0 0 12px #00bfff);
+    width: 90px;
+    filter: drop-shadow(0 0 6px #00bfff);
 }
 
 .icon span {
-    margin-top: 12px;
+    margin-top: 10px;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .icon img {
+        width: 70px;
+    }
+
+    .tec-intro {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
 }
 
 /* PROJETOS */
