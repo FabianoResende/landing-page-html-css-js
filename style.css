@@ -33,20 +33,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #e6e6e6;
-}
-
-.hero-title {
-    text-shadow:
-        0 0 6px #ffffff,
-        0 0 12px rgba(255, 255, 255, 0.8),
-        0 0 18px rgba(255, 255, 255, 0.6);
-}
-
-.hero-subtitle {
-    text-shadow:
-        0 0 4px #ffffff,
-        0 0 8px rgba(255, 255, 255, 0.6);
+    color: #cccccc;
 }
 
 
