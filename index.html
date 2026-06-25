@@ -8,8 +8,7 @@
 </head>
 <body>
 
-    <div class="hero-text fade-in">
-
+    <header class="hero fade-in">
         <img src="assets/img/Copilot_20260520_005931.png" class="hero-img">
         <div class="hero-text">
             <h1>Fabiano Faria de Resende</h1>
@@ -18,85 +17,79 @@
     </header>
 
     <section class="sobre fade-in">
-
         <h2>Sobre Mim</h2>
         <p>Sou estudante de Sistemas de Informação (4º período) e estou em transição de carreira para a área de Tecnologia. Aos 50 anos, trago responsabilidade e visão analítica desenvolvidas ao longo de mais de uma década em funções administrativas, financeiras e operacionais — competências que hoje aplico nos meus estudos e projetos em TI.</p>
     </section>
 
     <section class="tecnologias fade-in">
-
         <h2>Tecnologias</h2>
         <div class="icons">
-            <div class="icon"><img src="assets/img/html.png"><span>HTML</span></div>
-            <div class="icon"><img src="assets/img/css.png"><span>CSS</span></div>
-            <div class="icon"><img src="assets/img/js.png"><span>JavaScript</span></div>
-            <div class="icon"><img src="assets/img/python.png"><span>Python</span></div>
-            <div class="icon"><img src="assets/img/git.png"><span>Git</span></div>
+            <div class="icon fade-in"><img src="assets/img/html.png"><span>HTML</span></div>
+            <div class="icon fade-in"><img src="assets/img/css.png"><span>CSS</span></div>
+            <div class="icon fade-in"><img src="assets/img/js.png"><span>JavaScript</span></div>
+            <div class="icon fade-in"><img src="assets/img/python.png"><span>Python</span></div>
+            <div class="icon fade-in"><img src="assets/img/git.png"><span>Git</span></div>
         </div>
     </section>
 
-    <section class="projetos fade-in">
+    <section class="projetos fade-in" id="projetos">
+        <h2>Projetos</h2>
 
-    <h2>Projetos</h2>
+        <div class="projetos-container">
 
-    <div class="projetos-container">
+            <!-- Projeto 1 -->
+            <div class="card-projeto fade-in">
+                <h3>Password Manager — Python + SQLite</h3>
+                <p>Aplicação completa para gerenciamento seguro de senhas, utilizando Python, banco de dados SQLite e lógica de criptografia.</p>
+                <a href="https://github.com/FabianoResende/password-manager-python-sql" target="_blank" class="btn-projeto">Ver Projeto</a>
+            </div>
 
-        <!-- Projeto 1 -->
-        <div class="card-projeto fade-in">
+            <!-- Projeto 2 -->
+            <div class="card-projeto fade-in">
+                <h3>Landing Page — HTML, CSS & JS</h3>
+                <p>Landing page moderna, responsiva e elegante, desenvolvida com foco em boas práticas de front-end e experiência do usuário.</p>
+                <a href="https://fabianoresende.github.io/landing-page-html-css-js/" target="_blank" class="btn-projeto">Ver Projeto</a>
+            </div>
 
-            <h3>Password Manager — Python + SQLite</h3>
-            <p>Aplicação completa para gerenciamento seguro de senhas, utilizando Python, banco de dados SQLite e lógica de criptografia.</p>
-            <a href="https://github.com/FabianoResende/password-manager" target="_blank" class="btn-projeto">Ver Projeto</a>
+            <!-- Projeto 3 -->
+            <div class="card-projeto fade-in">
+                <h3>To‑Do List — JavaScript</h3>
+                <p>Aplicação funcional de lista de tarefas, com manipulação do DOM, eventos, lógica e interatividade em JavaScript puro.</p>
+                <a href="https://fabianoresende.github.io/todo-list-js/" target="_blank" class="btn-projeto">Ver Projeto</a>
+            </div>
+
         </div>
+    </section>
 
-        <!-- Projeto 2 -->
-        <div class="card-projeto fade-in">
-
-            <h3>Landing Page — HTML, CSS & JS</h3>
-            <p>Landing page moderna, responsiva e elegante, desenvolvida com foco em boas práticas de front-end e experiência do usuário.</p>
-            <a href="https://fabianoresende.github.io/landing-page-html-css-js/" target="_blank" class="btn-projeto">Ver Projeto</a>
-        </div>
-
-        <!-- Projeto 3 -->
-        <div class="card-projeto fade-in">
-
-            <h3>To‑Do List — JavaScript</h3>
-            <p>Aplicação funcional de lista de tarefas, com manipulação do DOM, eventos, lógica e interatividade em JavaScript puro.</p>
-            <a href="https://fabianoresende.github.io/todo-list-js/" target="_blank" class="btn-projeto">Ver Projeto</a>
-        </div>
-
-    </div>
-</section>
-
-    <section class="contato">
+    <section class="contato fade-in">
         <h2>Contato</h2>
         <p>📧 <a href="mailto:fabianofariaderesende@gmail.com">fabianofariaderesende@gmail.com</a></p>
-        <p>🔗 <a href="https://www.linkedin.com/in/fabianofr" target="_blank">LinkedIn</a> | <a href="https://github.com/FabianoResende" target="_blank">GitHub</a></p>
-        <p>📄 <a href="https://github.com/FabianoResende/FabianoResende/blob/main/curriculo_fabiano.pdf" target="_blank">Currículo Vitae</a>
+        <p>🔗 <a href="https://www.linkedin.com/in/fabianofr" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/FabianoResende" target="_blank">GitHub</a></p>
+        <p>📄 <a href="https://github.com/FabianoResende/FabianoResende/blob/main/curriculo_fabiano.pdf" target="_blank">Currículo Vitae</a></p>
     </section>
 
     <footer style="text-align:center; margin-top:10px; font-size:14px; color:#555;">
-    © 2026 Fabiano Faria de Resende — Todos os direitos reservados.
-</footer>
+        © 2026 Fabiano Faria de Resende — Todos os direitos reservados.
+    </footer>
 
-<script>
-    const elements = document.querySelectorAll('.fade-in');
+    <script>
+        const elements = document.querySelectorAll('.fade-in');
 
-    function showOnScroll() {
-        const trigger = window.innerHeight * 0.85;
+        function showOnScroll() {
+            const trigger = window.innerHeight * 0.85;
 
-        elements.forEach(el => {
-            const top = el.getBoundingClientRect().top;
-            if (top < trigger) {
-                el.classList.add('show');
-            }
-        });
-    }
+            elements.forEach(el => {
+                const top = el.getBoundingClientRect().top;
+                if (top < trigger) {
+                    el.classList.add('show');
+                }
+            });
+        }
 
-    window.addEventListener('scroll', showOnScroll);
-    window.addEventListener('load', showOnScroll);
-</script>
-    
+        window.addEventListener('scroll', showOnScroll);
+        window.addEventListener('load', showOnScroll);
+    </script>
 
 </body>
 </html>
