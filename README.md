@@ -1,7 +1,7 @@
 # 🌐 Landing Page — HTML, CSS & JavaScript
 
 Uma landing page moderna, responsiva e estruturada para apresentar conteúdo de forma clara, visual e profissional.  
-Projeto desenvolvido como parte da minha evolução em Front‑end e preparação para o estágio de **Engenharia de IA Front‑end — FlyRank (Jul/2026)**.
+Projeto desenvolvido como parte da minha evolução em Front‑end e preparação para o estágio de **Engenharia de IA — FlyRank**.
 
 ---
 
@@ -48,7 +48,7 @@ landing-page-html-css-js/
 
 ## 👨‍💻 Autor  
 **Fabiano Faria de Resende**  
-Estagiário de Engenharia de IA Front‑end — FlyRank (Jul/2026)  
+Estagiário de Engenharia de IA — FlyRank  
 GitHub: https://github.com/FabianoResende  
 LinkedIn: https://www.linkedin.com/in/fabianofr/
 
