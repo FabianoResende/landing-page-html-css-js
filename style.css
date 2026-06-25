@@ -139,6 +139,55 @@
     color: #0a0f2c;
 }
 
+.projetos-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-projeto {
+    background: rgba(0, 170, 255, 0.08);
+    border: 1px solid #00aaff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card-projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #00aaff;
+}
+
+.card-projeto h3 {
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.card-projeto p {
+    color: #ddd;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.btn-projeto {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #00aaff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-projeto:hover {
+    background: #0088cc;
+}
+
 /* CONTATO */
 .contato {
     background-color: #081229;
