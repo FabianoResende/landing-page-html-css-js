@@ -256,7 +256,6 @@
     }
 }
 /* SOMBREAMENTO BRANCO PARA TEXTO DO HERO */
-.hero-title,
 .hero-subtitle {
     text-shadow:
         0 0 4px #ffffff,
