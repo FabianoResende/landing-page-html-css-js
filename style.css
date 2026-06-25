@@ -255,3 +255,11 @@
         width: 90%;
     }
 }
+/* SOMBREAMENTO BRANCO PARA TEXTO DO HERO */
+.hero-title,
+.hero-subtitle {
+    text-shadow:
+        0 0 4px #ffffff,
+        0 0 8px rgba(255, 255, 255, 0.7),
+        0 0 12px rgba(255, 255, 255, 0.5);
+}
